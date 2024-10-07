@@ -6,6 +6,11 @@ public class Dueño extends Persona{
     public Dueño(String nombre, String apellido, String correo, String telefono, String cedula){
         super(nombre, apellido, correo, telefono);
         this.cedula=cedula;
+        assert!nombre.isBlank();
+        assert!apellido.isBlank();
+        assert!correo.isBlank();
+        assert!telefono.isBlank();
+      
     }
 
     public String getCedula() {
