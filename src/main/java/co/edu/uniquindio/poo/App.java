@@ -32,12 +32,22 @@ public class App {
         // Imprimir animales domesticos
         System.out.println("Animal domestico \n");
         System.out.println(perro);
+        perro.comer();
+        perro.dormir();
+        System.out.println(); 
+
 
         System.out.println("Animal domestico \n");
         System.out.println(gato);
+        gato.comer();
+        gato.dormir();
+        System.out.println(); 
 
         System.out.println("Animal domestico \n");
         System.out.println(canario);
+        canario.comer();
+        canario.dormir();
+        System.out.println(); 
 
         //Crear animal Salvaje
         AnimalSalvaje leon = new AnimalSalvaje("Rey León", 6, "50 kg", "Selva Guayu", true, veterinario2);
